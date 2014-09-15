@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org" lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Требуется авторизация</title>
+</head>
+<body>
+<div id="wrapper">
+    <div id="content">
+        <div wicket:id="feedback"></div>
+        <br />
+
+        <form wicket:id="form" name="form">
+          <input wicket:id="login" type="text" wicket:message="placeholder:login" />
+          <input wicket:id="password" type="password" wicket:message="placeholder:password"/>
+
+          <input wicket:id="submit" type="submit" value="submit"/>
+        </form>
+        <!-- #content-->
+    </div>
+</div>
+</body>
+</html>
